@@ -1,0 +1,112 @@
+.nav{
+    height: 100px;
+    padding-bottom: 0px;
+    
+}
+.nav img{
+    max-height: 100%;
+    float: left;
+    display: flex;
+}
+.nav ul{
+    float: left;
+    display:flex ;
+    padding: 15px;
+    list-style: none;
+    margin-left:50px;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+}
+.nav button{
+            float: right;
+            margin-right: 50px;
+            margin-top: 20px;
+}
+
+.pic{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    margin: 0px auto;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+h1,#p1{
+    text-align: center;
+    
+}
+.box1,.box2,.box3,.box4{
+    height: 200px;
+    width:250px ;
+    border-top: 4px solid red;
+    float: left;
+    
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px 5px grey;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+.box1{
+    margin-left: 70px;
+}
+P{
+    padding: 10px;
+}
+.about{
+    height: 200px;
+    background-color: tomato;
+    clear: both;
+    padding: 20px;
+    column-count: 3;
+    overflow: hidden;
+    column-span: all;
+    margin-bottom: 20px;
+  
+}  
+h5{
+    margin-left: 150px;
+    font-size: 20px;
+    font-style: bold;
+    padding-top: 0;
+}
+form{
+    display: inline-block;
+    margin-left: 150px;
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+form input{
+    width: 500px;
+}
+form select{
+    width: 510px;
+}
+textarea{
+    height: 250px;
+    width: 1015px;
+    margin-left: 150px;
+}
+button{
+    display: block;
+    margin-left: 150px;
+    background-color: tomato;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+  margin-left: 600px;
+}
+ul li{
+    display: inline;
+}
+.foter{
+    text-align: center;
+}
+h2{column-span: all;
+text-align: center;}
